@@ -1,5 +1,5 @@
-const crypto = require("crypto");
+function isEven(num) {
+    return num % 2 === 0;
+}
 
-let dice = crypto.randomInt(1, 7);
-
-console.log("Dice Rolled:", dice);
+module.exports = isEven;
